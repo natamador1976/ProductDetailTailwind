@@ -1,0 +1,18 @@
+<section class="w-full border-gray-700 h-96 my-11">
+    <h2 class="text-lg">Sugerencias</h2>
+    <section class="flex  flex-wrap justify-between bg-red-50 px-5 mt-5">
+        
+        {{#each productos   }}
+        <section class="flex flex-col w-60">
+            <h4 class="text-center">{{title}}</h4>
+            <img src="{{img}}" alt="{{title}}" >
+            <p class="text-lg">
+                {{desc}}
+            </p>
+         </section>
+     
+        {{/each}}
+
+    </section>
+
+</section>

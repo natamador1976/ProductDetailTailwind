@@ -1,0 +1,38 @@
+{
+  "site_title":"Carolina's Jewerly",
+  "precio":"500",
+  "productos":[
+    {
+      "title":"Sombras",
+      "desc":"La Paleta de Sombras Nude Awaking de Wet N Wild contiene 10 sombras en variedad de acabados mate y brillante. Su fórmula es de ultra pigmentación, textura suave y fácil de difuminar. ¡Crea desde un look luminoso para el día hasta un dramático smokey eye!",
+      "img":"imgs/make6.jpg",
+      "precio":"900 lps"
+    },
+    {
+      "title":"Rimel Extreme",
+      "desc":"Su fórmula hipoalergénica y libre de crueldad animal, está aprobada clínicamente para utilizarse incluso en ojos sensibles.",
+      "img":"imgs/make16.jpg",
+      "precio":"300 lps"
+    },
+    {
+      "title":"Rimel Flume",
+      "desc":"Su fórmula hipoalergénica y libre de crueldad animal, está aprobada clínicamente para utilizarse incluso en ojos sensibles.",
+      "img":"imgs/make17.jpg",
+      "precio":"200 lps"
+    },
+    {
+      "title":"Hidratante",
+      "desc":"¡Una deliciosa mezcla de ingredientes naturales para nuestra piel! La Mascarilla Hidratante y Calmante True Solution está diseñada para dar un doble efecto de hidratación en la piel.",
+      "img":"imgs/make18.jpg",
+      "precio":"500 lps"
+    },
+    {
+      "title":"Paquete de Brochas",
+      "desc":"¡Las brochas que necesitas para un rostro flawless! El Set de Brochas Flawless Face Essentials Set de Face Secrets contiene dos brochas y una esponja aplicadora, para lograr una base de maquillaje perfecta.",
+      "img":"imgs/make19.jpg",
+      "precio":"1000 lps"
+    }
+
+  ]
+  
+}

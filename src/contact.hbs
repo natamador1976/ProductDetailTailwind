@@ -1,0 +1,12 @@
+{{#> layouts/basic page_title="Detalle de Productos"}}
+    {{#*inline "main-block"}}
+        <h1>Productos del Catalogó</h1>
+       <section class="my-6 flex flex-wrap">
+            {{#each productos}}  
+              {{#>  cards/cards  card_title=title card_des=desc card_precio=precio card_img=img }}
+              {{/cards/cards}}
+        {{/each}}
+       </section>
+       
+    {{/inline}}
+{{/layouts/basic}}

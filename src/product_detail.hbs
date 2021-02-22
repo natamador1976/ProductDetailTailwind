@@ -1,0 +1,15 @@
+{{#> layouts/basic}}
+    {{#* inline "main-block"}}
+        <section class="md:container my-11 ">
+            <section class="flex ">
+               {{#> cards/cards_detail}}
+               {{/cards/cards_detail}}
+            </section>
+            <section class="flex">
+                {{#> cards/card_suggestion}}
+                {{/cards/card_suggestion}}
+            </section>
+        </section>
+        
+    {{/inline}}
+{{/layouts/basic}}

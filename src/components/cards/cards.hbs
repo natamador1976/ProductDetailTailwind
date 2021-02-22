@@ -1,0 +1,16 @@
+<section>
+    <section  class="p-4 pb-1 w-96 " >
+        <section class="bg-white w-full flex  flex-col justify-items-center content-center">
+            <h2 class="text-center py-3">{{card_title}}</h3>
+            <img src="{{card_img}}" alt="{{card_title}}">
+            {{#> parragraph/parragraph}}
+            <p>{{card_des}}</p>
+            {{/parragraph/parragraph}}
+            {{#> buttons/buttons  }}
+            <button>{{card_precio}}</button>
+            <a href="" {{card_title}}{{card_img}}{{card_des}}{{card_precio}}></a>
+            {{/buttons/buttons}}
+            
+        </section>
+    </section>
+</section>
